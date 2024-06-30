@@ -4,6 +4,7 @@
 
 - Migrate to null safety
 - Set timeout in constructor
+- Fix null mapping bug on mainTextMatchedSubstrings
 
 ## [0.4.7] - 2022-01-22
 
