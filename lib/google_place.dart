@@ -76,7 +76,9 @@ class GooglePlace {
     this.apiKEY, {
     this.headers = const {},
     this.proxyUrl,
+    Duration? timeoutDuration,
   }) {
+    if (timeoutDuration != null) timeout = timeoutDuration;
     this.search = Search(apiKEY, headers, proxyUrl);
     this.details = Details(apiKEY, headers, proxyUrl);
     this.photos = Photos(apiKEY, headers, proxyUrl);

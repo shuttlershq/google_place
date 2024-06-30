@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [0.5.0] - 2024-06-30
+
+- Migrate to null safety
+- Set timeout in constructor
+
 ## [0.4.7] - 2022-01-22
 
 - Reformatting code
